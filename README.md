@@ -1,2 +1,0 @@
-# jorafb.github.io
-Website

@@ -118,10 +118,12 @@ html {
 body {
   height: 100%;
   background-color: #353C51;/* charcoal */
-  background-image: url(images/overlay.png), linear-gradient(60deg, rgba(111, 111, 111, 0.25) 5%, rgba(111, 110, 80,0.3)), url(../../images/bg5.jpg);
-  background-image: url(images/overlay.png), -moz-linear-gradient(60deg, rgba(111, 111, 111, 0.25) 5%, rgba(111, 110, 80,0.3)), url(../../images/bg5.jpg);
-  background-image: url(images/overlay.png), -webkit-linear-gradient(60deg, rgba(111, 111, 111, 0.25) 5%, rgba(111, 110, 80,0.3)), url(../../images/bg5.jpg);
-  background-image: url(images/overlay.png), ms-linear-gradient(60deg, rgba(111, 111, 111, 0.25) 5%, rgba(111, 110, 80,0.3)), url(../../images/bg5.jpg);
+  background-image: url(images/overlay.png), linear-gradient(60deg, rgba(000, 111, 111, 0.25) 5%, rgba(300, 110, 80,0.3)), url(../../images/bg5.jpg);
+  
+  background-image: url(images/overlay.png), -moz-linear-gradient(60deg, rgba(000, 111, 111, 0.25) 5%, rgba(300, 110, 80,0.3)), url(../../images/bg5.jpg);
+  background-image: url(images/overlay.png), -webkit-linear-gradient(60deg, rgba(000, 111, 111, 0.25) 5%, rgba(300, 110, 80,0.3)), url(../../images/bg5.jpg);
+  background-image: url(images/overlay.png), ms-linear-gradient(60deg, rgba(000, 111, 111, 0.25) 5%, rgba(300, 110, 80,0.3)), url(../../images/bg5.jpg);
+  
   background-repeat: repeat,			no-repeat,			no-repeat;
   background-size: 100px 100px, cover,				cover;
   background-position: top left,		center center,		bottom center;
